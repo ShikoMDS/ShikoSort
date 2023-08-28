@@ -25,16 +25,17 @@ This program is designed with C++ and to be operated with mouse and keyboard con
 ShikoSort has a loading and saving function for the use of .txt files.
 .txt files may be imported from the local system with the format where:
 
-NAME = Item name (std::string)
-TYPE = Item type (Enum - Weapon, Armor, Consumable, Utility)
-PRICE = Item price (double)
-QUANTITY = Item Quantity (int)
+- NAME = Item name (std::string)
+- TYPE = Item type (Enum - Weapon, Armor, Consumable, Utility)
+- PRICE = Item price (double)
+- QUANTITY = Item Quantity (int)
 
-NAME // TYPE // PRICE // QUANTITY
-Shiko Sword // Weapon // 10.69 // 1
-Bad Item // Rod // 21.69 // 1                   <- invalid type name (Rod), line will not be used
-Another Bad Item // Utility // 16.45 // 0       <- if item does not exist (0 quantity), why should it be in the list?
-Health Potion // Consumable // 2.99 // 5
+.TXT (REMOVE THE DOTS)
+- NAME // TYPE // PRICE // QUANTITY
+- Shiko Sword // Weapon // 10.69 // 1
+- Bad Item // Rod // 21.69 // 1                   <- invalid type name (Rod), line will not be used
+- Another Bad Item // Utility // 16.45 // 0       <- if item does not exist (0 quantity), why should it be in the list?
+- Health Potion // Consumable // 2.99 // 5
                                                 <- line will be skipped
 Luminescence Cloak // Armor // 15.20 // 1
   d                                             <- invalid item format, line will not be used
