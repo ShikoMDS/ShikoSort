@@ -5,13 +5,13 @@ Rushed Inventory Sorting System project created for GD1P02 Algorithms and Data S
 
 ## Table of Contents
 
-- [Description]
-- [Features]
-- [Requirements]
-- [Installation]
-- [Controls]
-- [Disclaimer]
-- [Credits]
+- [Description](#Description)
+- [Features](#Features)
+- [Requirements](#Requirements)
+- [Installation](#Installation)
+- [Controls](#Controls)
+- [Disclaimer](#Disclaimer)
+- [Credits](#Credits)
 
 
 ## Description
